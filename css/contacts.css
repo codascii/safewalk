@@ -1,0 +1,39 @@
+
+#core {
+    margin-top: -30px;
+}
+
+#contacts {
+    padding: 30px;
+}
+
+input#recherche {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #bfbfbf;
+    font-size: 1.1em;
+    width: 85%;
+}
+
+.contact{
+    background-color: #d9d9d9;
+    margin-bottom: 20px;
+    display: flex;
+    padding: 10px 20px;
+}
+
+.contact h4{
+    margin: 0px;
+    margin-bottom: 5px;
+}
+
+.contact span{
+    font-size: .85em;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}

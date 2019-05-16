@@ -1,0 +1,58 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Asap', sans-serif;
+    color: #595959;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin-bottom: 30px;
+}
+
+#sidemenubar {
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 60%;
+    height:100%;
+    background-color: #404040;
+}
+
+#sidemenubar #top {
+    padding: 20px;
+    display: flex;
+    color: white;
+    background-color: #b3b3b3;
+}
+
+#sidemenubar #top img {
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+#sidemenubar #top h2 {
+    margin: 0px;
+}
+
+#sidemenubar #top span {
+    font-size: .88em;
+}
+
+#sidemenubar ul {
+    padding-left: 0px;
+    margin: 0px;
+}
+
+#sidemenubar ul li {
+    list-style: none;
+}
+
+#sidemenubar ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
