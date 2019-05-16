@@ -4,7 +4,12 @@
 }
 
 #contacts {
-    padding: 30px;
+    padding: 30px 20px;
+}
+
+#contacts a {
+    text-decoration: none;
+    color: #595959;
 }
 
 input#recherche {
