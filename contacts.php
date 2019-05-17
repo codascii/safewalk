@@ -5,18 +5,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/header.css">
+        <link rel="stylesheet" type="text/css" href="css/safewalk.css">
         <link rel="stylesheet" type="text/css" href="css/sidemenubar.css"/>        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-        <link rel="stylesheet" type="text/css" href="css/contacts.css">
         <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
         <title>Profil</title>
     </head>
     <body>
         <header>
-            <div id="menu"><i class="fas fa-bars" style="font-size: 1.3em;"></i></div>
-            <div><p style="font-weight: bold;margin:0;">CONTACTS</p></div>
+            <div><p> </p></div>
+            <div id="title"><p style="font-weight: bold;margin:0;">Contacts</p></div>
             <div><i class="fas fa-ellipsis-v" style="font-size: 1.3em;"></i></div>
         </header>
         <div id="core">
