@@ -15,7 +15,7 @@
             <h1>Safewalk</h1>
         </div>
         <div id="bottom">
-            <form action="profil.php">
+            <form action="map.php">
                 <input type="email" name="mail" id="mail" placeholder="Adresse email"/>
                 <input type="password" name="pass" id="pass" placeholder="Mot de passe"/>
                 <hr/>
@@ -26,7 +26,6 @@
                 <span>SE CONNECTER AVEC FACEBOOK</span>
             </button>
         </div>
-        <script type="text/javascript" src="js/std.js"></script>  
-        <?php include 'include/navigation.php' ?>
+        <script type="text/javascript" src="js/std.js"></script>
     </body>
 </html>

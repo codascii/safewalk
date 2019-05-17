@@ -26,14 +26,14 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+        padding-top: 10px;
 
         .block {
-            box-shadow: 0px 1px 10px #dddddd;
+            box-shadow: 0px 3px 5px #dddddd;
             width: 30%;
-            margin-bottom: 15px;
+            margin-bottom: 30px;
             background-color: #ffffff;
             padding: 20px;
-            border-radius: 10px;
 
             i {
                 background-color: $secondary-color-light;

@@ -3,7 +3,7 @@
         <div id="navbar">
             <div id="navbar-content">
                 <div id="icones">
-                    <a href="#">
+                    <a href="contacts.php">
                         <i class="fas fa-address-book"></i>
                     </a>
                     <a href="#">
@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div id="photo" class="">
-                <img src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_640.png" alt="Photo de profil">
+                <img src="img/img-profil.png" alt="Photo de profil">
             </div>
         </div>
         <div id="informations">

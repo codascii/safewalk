@@ -1,0 +1,65 @@
+#blocksmap {
+    width: 90%;
+    margin-left: 5%;
+    background-color: white;
+    position: absolute;
+    bottom: 90px;
+    z-index:99999;
+    box-shadow: 0px 0px 10px #808080;
+    border-radius: 5px;
+
+    .innerBlock {
+        padding: 20px;
+
+        ul {
+            padding-left: 0px;
+            margin: 0px;
+            position: relative;
+
+            li {
+                list-style: none;
+                display: inline-block;
+
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 25px;
+                    height: 25px;
+                    left: -100px;
+                    background-color: white;
+                    border: 4px solid #00cc99;
+                    top: 15px;
+                    border-radius: 50%;
+                    z-index: 1;
+                }
+
+                input {
+                    display: inline-block;
+                    border: none;
+                    border-bottom: 1px solid #cccccc;
+
+                    &:nth-child(1) {
+                        margin-bottom: 5px;
+                    }
+                }
+            }
+        }
+
+        &:nth-child(1) {
+            border-bottom: 1px solid #cccccc;
+        }
+
+        &:nth-child(2) {
+            display: flex;
+            justify-content: space-between;
+
+            .info {
+                width: 48%;
+
+                h5 {
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+}

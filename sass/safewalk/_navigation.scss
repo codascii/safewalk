@@ -1,5 +1,6 @@
 div#navigation {
     position: fixed;
+    z-index: 99999999999999;
     bottom: 0px;
     left:0px;
     width:100%;
@@ -20,7 +21,6 @@ div#navigation {
             height: 50px;
             border-top-left-radius: 50px;
             border-top-right-radius: 50px;
-            //border: 1px solid #0000ff;
 
             div#navbar-content {
                 display: flex;
