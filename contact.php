@@ -4,9 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link rel="stylesheet" type="text/css" href="css/header.css">
-        <link rel="stylesheet" type="text/css" href="css/sidemenubar.css"/>
-        <link rel="stylesheet" type="text/css" href="css/contact.css">
+        <link rel="stylesheet" type="text/css" href="css/safewalk.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
@@ -27,7 +25,7 @@
         <div id="core">
             <div style="display:flex;justify-content:center;">
                 <div id="img-rounded">
-                    <img src="https://cdn.pixabay.com/photo/2017/06/13/12/53/profile-2398782_640.png" alt="Photo de profil">
+                    <img src="img/img-profil.png" alt="Photo de profil">
                 </div>
             </div>
             <div style="margin-top: 60px;">                
@@ -57,7 +55,8 @@
                 </div>
             </div>
         </div>        
-        <?php include 'include/sidemenubar.php' ?>
         <script type="text/javascript" src="js/contact.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/std.js"></script>
     </body>
 </html>

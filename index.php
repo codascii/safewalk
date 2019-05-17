@@ -26,6 +26,7 @@
                 <span>SE CONNECTER AVEC FACEBOOK</span>
             </button>
         </div>
-        <script type="text/javascript" src="js/std.js"></script>
+        <script type="text/javascript" src="js/std.js"></script>  
+        <?php include 'include/navigation.php' ?>
     </body>
 </html>

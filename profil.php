@@ -47,8 +47,9 @@
                 <button>SOS</button>
             </div>
         </div>
-        <?php include 'include/sidemenubar.php' ?>
+                
+        <?php include 'include/navigation.php' ?>
+        <script type="text/javascript" src="js/contact.js"></script>
         <script type="text/javascript" src="js/std.js"></script>
-        <script type="text/javascript" src="js/menu.js"></script>
     </body>
 </html>
