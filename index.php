@@ -6,23 +6,30 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <link rel="stylesheet" type="text/css" href="css/header.css"/>
         <link rel="stylesheet" type="text/css" href="css/index.css"/>
-        <link rel="stylesheet" type="text/css" href="css/sidemenubar.css"/>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"/>
         <title>Safewalk</title>
     </head>
     <body>
-        <div id="top">
+        <div id="logo">
+            <img src="img/logo.png" alt="Logo de Safewalk"/>
             <h1>Safewalk</h1>
         </div>
         <div id="bottom">
-            <form action="#">
+            <form action="profil.php">
                 <input type="email" name="mail" id="mail" placeholder="Adresse email"/>
                 <input type="password" name="pass" id="pass" placeholder="Mot de passe"/>
                 <hr/>
                 <button id="login">SE CONNECTER</button>
             </form>
-            <button id="register">S'INSCRIRE</button>
+            <button id="facebook-login">
+                <i class="fab fa-facebook-f"></i>
+                <span>SE CONNECTER AVEC FACEBOOK</span>
+            </button>
+            <!--<form action="register.php" method="post">
+                <button id="register">S'INSCRIRE</button>
+            </form>-->
         </div>
+        <script type="text/javascript" src="js/index.js"></script>
     </body>
 </html>
