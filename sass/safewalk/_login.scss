@@ -70,7 +70,7 @@
             background-color: $primary-color-lighter;
             font-size: .98em;
             border: none;
-            box-shadow: 0px 0px 5px rgba(179, 102, 118);
+            box-shadow: 0px 0px 5px $primary-color-light;
         }
 
         &#facebook-login {
@@ -94,18 +94,3 @@
         }
     }
 }
-
-/*form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ o/
-    color: white;
-    opacity: .6; /* Firefox o/
-}
-  
-form input:-ms-input-placeholder { /* Internet Explorer 10-11 o/
-    color: white;
-    opacity: .6;
-}
-  
-form input::-ms-input-placeholder { /* Microsoft Edge o/
-    color: white;
-    opacity: .6;
-}*/
