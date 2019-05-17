@@ -7,25 +7,7 @@ div#photo img {
     height: 80px;
 }
 
-#horizontal {
-    display: flex;justify-content:space-between;
-}
 
-h2{ margin-top: 8px; }
-
-#horizontal > div{
-    width: 30%;
-}
-
-#horizontal > div:nth-child(2) {
-    border: 2px solid #b3b3b3;
-    border-top: none;
-    border-bottom: none;
-}
-
-#horizontal p {
-    margin: 0px;
-}
 
 button{
     margin: 80px 0px;

@@ -3,6 +3,7 @@ body {
   padding: 0px;
   font-family: "Asap", sans-serif;
   color: #595959;
+  position: relative;
 }
 body header {
   display: flex;
@@ -94,6 +95,100 @@ body header {
 }
 #bottom button#register:hover {
   background-color: #cccccc;
+}
+
+div#navigation {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+div#navigation div#box {
+  width: 100%;
+  background-color: #FFFFFF;
+  box-shadow: 0px -3px 8px #cccccc;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  position: absolute;
+  bottom: -302px;
+}
+div#navigation div#box div#navbar {
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+}
+div#navigation div#box div#navbar div#navbar-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 45px;
+  color: #B36676;
+}
+div#navigation div#box div#navbar div#navbar-content div#icones a {
+  color: #B36676;
+  text-decoration: none;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+div#navigation div#box div#navbar div#navbar-content div#icones a:nth-child(1) {
+  margin-right: 35px;
+}
+div#navigation div#box div#navbar div#navbar-content div#signal a {
+  text-decoration: none;
+  color: #B36676;
+  font-size: 1.1em;
+  font-weight: bolder;
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 5px;
+}
+div#navigation div#box div#navbar div#photo {
+  width: 40px;
+  height: 40px;
+  padding: 6px;
+  box-shadow: 0px 0px 5px #808080;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+  margin: -75px auto 0px auto;
+}
+div#navigation div#box div#navbar div#photo img {
+  width: 100%;
+}
+div#navigation div#box div#informations {
+  text-align: center;
+  padding: 30px;
+}
+div#navigation div#box div#informations h2 {
+  margin: 8px auto 0px auto;
+  color: #B36676;
+  font-weight: bold;
+}
+div#navigation div#box div#informations span#ville {
+  font-size: 0.75em;
+}
+div#navigation div#box div#informations div#description {
+  margin: 40px 0px;
+}
+div#navigation div#box div#informations div#horizontal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+div#navigation div#box div#informations div#horizontal > div {
+  width: 30%;
+}
+div#navigation div#box div#informations div#horizontal > div:nth-child(2) {
+  border: 2px solid #b3b3b3;
+  border-top: none;
+  border-bottom: none;
+}
+div#navigation div#box div#informations div#horizontal p {
+  margin: 0px;
+  font-weight: bold;
+}
+div#navigation div#box div#informations div#horizontal p#hville {
+  font-size: 1.2em;
+  padding-top: 5px;
 }
 
 /*# sourceMappingURL=safewalk.css.map */
