@@ -1,3 +1,101 @@
+#logo {
+  text-align: center;
+  padding: 50px 0px 20px 0px;
+}
+#logo img {
+  width: 30%;
+}
+#logo h1 {
+  margin-top: 5px;
+  color: #3366ff;
+}
 
+#bottom {
+  text-align: center;
+}
+#bottom form {
+  text-align: center;
+}
+#bottom form input {
+  width: 65%;
+  border-radius: 40px;
+  padding: 15px 30px;
+  background-color: #3366ff;
+  margin-bottom: 30px;
+  border: none;
+  color: white;
+  font-size: 0.99em;
+  outline: none;
+}
+#bottom form input::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 0.6;
+  /* Firefox */
+}
+#bottom form input:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+  opacity: 0.6;
+}
+#bottom form input::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+  opacity: 0.6;
+}
+#bottom form hr {
+  width: 10%;
+  border: 2px solid #3366ff;
+  border-radius: 5px;
+  margin: 30px auto;
+}
+#bottom button {
+  display: block;
+  width: 75%;
+  border-radius: 40px;
+  padding: 15px 30px;
+  margin: 10px auto;
+  color: #555555;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+#bottom button#login {
+  background-color: #ffc4d1;
+  font-size: 0.98em;
+  border: none;
+  box-shadow: 0px 0px 5px #b36676;
+}
+#bottom button#facebook-login {
+  background: none;
+  border: 2px solid #ffc4d1;
+  font-size: 0.65em;
+  display: flex;
+  justify-content: space-between;
+}
+#bottom button#facebook-login * {
+  display: block;
+}
+#bottom button#register {
+  background-color: white;
+}
+#bottom button #register:hover {
+  background-color: #cccccc;
+}
+
+/*form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ o/
+    color: white;
+    opacity: .6; /* Firefox o/
+}
+  
+form input:-ms-input-placeholder { /* Internet Explorer 10-11 o/
+    color: white;
+    opacity: .6;
+}
+  
+form input::-ms-input-placeholder { /* Microsoft Edge o/
+    color: white;
+    opacity: .6;
+}*/
 
 /*# sourceMappingURL=safewalk.css.map */
