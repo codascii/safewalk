@@ -330,7 +330,7 @@ header #title p {
   margin-right: 15px;
 }
 
-#blocks {
+#blocksmap {
   width: 90%;
   margin-left: 5%;
   background-color: white;
@@ -340,40 +340,74 @@ header #title p {
   box-shadow: 0px 0px 10px #808080;
   border-radius: 5px;
 }
-#blocks .innerBlock {
+#blocksmap .innerBlock {
   padding: 20px;
+  position: relative;
 }
-#blocks .innerBlock ul {
+#blocksmap .innerBlock div#arrows {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+}
+#blocksmap .innerBlock ul {
   padding-left: 0px;
   margin: 0px;
-}
-#blocks .innerBlock ul li {
+  margin-bottom: -20px;
   position: relative;
-  list-style: none;
 }
-#blocks .innerBlock ul li::after {
+#blocksmap .innerBlock ul::after {
   content: "";
   position: absolute;
-  width: 25px;
-  height: 25px;
-  right: -17px;
-  background-color: white;
-  border: 4px solid #00cc99;
-  top: 15px;
+  width: 1px;
+  height: 30px;
+  background-color: #bcbcbc;
+  top: 30px;
+  left: -8px;
+}
+#blocksmap .innerBlock ul li {
+  list-style: none;
+  display: inline-block;
+  width: 100%;
+  position: relative;
+}
+#blocksmap .innerBlock ul li::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  left: -10px;
+  background-color: #999999;
+  top: 12px;
   border-radius: 50%;
   z-index: 1;
 }
-#blocks .innerBlock:nth-child(1) {
+#blocksmap .innerBlock ul li::after:nth-child(2) {
+  background-color: red;
+}
+#blocksmap .innerBlock ul li input {
+  display: inline-block;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
+  padding: 5px 10px;
+  outline: none;
+  width: 85%;
+  font-size: 1em;
+  color: #565656;
+}
+#blocksmap .innerBlock ul li input:nth-child(1) {
+  margin-bottom: 30px;
+}
+#blocksmap .innerBlock:nth-child(1) {
   border-bottom: 1px solid #cccccc;
 }
-#blocks .innerBlock:nth-child(2) {
+#blocksmap .innerBlock:nth-child(2) {
   display: flex;
   justify-content: space-between;
 }
-#blocks .innerBlock:nth-child(2) .info {
+#blocksmap .innerBlock:nth-child(2) .info {
   width: 48%;
 }
-#blocks .innerBlock:nth-child(2) .info h5 {
+#blocksmap .innerBlock:nth-child(2) .info h5 {
   margin-top: 0px;
 }
 

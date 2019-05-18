@@ -19,9 +19,13 @@
         <div id="blocksmap">
             <div class="innerBlock">
                 <ul>
-                    <li><input type="text" name="depart" id="depart"/></li>
-                    <li><input type="text" name="arrivee" id="arrivee"/></li>
+                    <li><input type="text" name="depart" id="depart" placeholder="Départ" /></li>
+                    <li><input type="text" name="arrivee" id="arrivee" placeholder="Arrivée"/></li>
                 </ul>
+                <div id="arrows">
+                    <i class="fas fa-arrow-up"></i>
+                    <i class="fas fa-arrow-down"></i>
+                </div>
             </div>
             <div class="innerBlock">
                 <div class="info">
