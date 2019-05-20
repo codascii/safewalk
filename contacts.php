@@ -35,8 +35,8 @@
                     <div class="contact animated fadeInUp delay-200ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
+                            <h4>Jeanette Leblanc</h4>
+                            <span>Villeurbanne</span>
                         </div>
                     </div>
                 </a>
@@ -44,8 +44,8 @@
                     <div class="contact animated fadeInUp delay-300ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
+                            <h4>Catherine Zeta Jones</h4>
+                            <span>Venissieux</span>
                         </div>
                     </div>
                 </a>
@@ -53,8 +53,8 @@
                     <div class="contact animated fadeInUp delay-400ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
+                            <h4>Paul Young</h4>
+                            <span>Craponne</span>
                         </div>
                     </div>
                 </a>
@@ -62,7 +62,7 @@
                     <div class="contact animated fadeInUp delay-500ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Sarah Lee</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                     <div class="contact animated fadeInUp delay-600ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Julien Morel</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -80,7 +80,7 @@
                     <div class="contact animated fadeInUp delay-700ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Kate Ashton</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                     <div class="contact animated fadeInUp delay-800ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Kevin Bouvet</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                     <div class="contact animated fadeInUp delay-900ms">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Lise Lafleur</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -107,7 +107,7 @@
                     <div class="contact animated fadeInUp delay-1s">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Stephane Gallot</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -116,8 +116,8 @@
                     <div class="contact animated fadeInUp">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
+                            <h4>Amina Salim</h4>
+                            <span>Saint-Priest</span>
                         </div>
                     </div>
                 </a>
@@ -125,7 +125,7 @@
                     <div class="contact animated fadeInUp">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Chanel Martin</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
