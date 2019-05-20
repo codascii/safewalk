@@ -1,3 +1,12 @@
+div#fondlogin {
+    height: 100%;
+    background: rgb(179,102,118);
+    background: -moz-linear-gradient(0deg, rgba(179,102,118,1) 0%, rgba(255,171,189,1) 20%, rgba(255,196,209,1) 54%);
+    background: -webkit-linear-gradient(0deg, rgba(179,102,118,1) 0%, rgba(255,171,189,1) 20%, rgba(255,196,209,1) 54%);
+    background: linear-gradient(0deg, rgba(179,102,118,1) 0%, rgba(255,171,189,1) 20%, rgba(255,196,209,1) 54%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b36676",endColorstr="#ffc4d1",GradientType=1);
+}
+
 #logo {
     text-align: center;
     padding: 50px 0px 20px 0px;

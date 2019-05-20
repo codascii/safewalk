@@ -10,21 +10,23 @@
         <title>Safewalk</title>
     </head>
     <body>
-        <div id="logo">
-            <img src="img/logo.png" alt="Logo de Safewalk"/>
-            <h1>Safewalk</h1>
-        </div>
-        <div id="bottom">
-            <form action="map.php">
-                <input type="email" name="mail" id="mail" placeholder="Adresse email"/>
-                <input type="password" name="pass" id="pass" placeholder="Mot de passe"/>
-                <hr/>
-                <button id="login">SE CONNECTER</button>
-            </form>
-            <button id="facebook-login">
-                <i class="fab fa-facebook-f"></i>
-                <span>SE CONNECTER AVEC FACEBOOK</span>
-            </button>
+        <div id="fondlogin">            
+            <div id="logo">
+                <img src="img/logo.png" alt="Logo de Safewalk"/>
+                <h1>Safewalk</h1>
+            </div>
+            <div id="bottom">
+                <form action="map.php">
+                    <input type="email" name="mail" id="mail" placeholder="Adresse email"/>
+                    <input type="password" name="pass" id="pass" placeholder="Mot de passe"/>
+                    <hr/>
+                    <button id="login">SE CONNECTER</button>
+                </form>
+                <button id="facebook-login">
+                    <i class="fab fa-facebook-f"></i>
+                    <span>SE CONNECTER AVEC FACEBOOK</span>
+                </button>
+            </div>
         </div>
         <script type="text/javascript" src="js/std.js"></script>
     </body>

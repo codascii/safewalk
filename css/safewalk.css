@@ -51,6 +51,15 @@ header {
   color: white;
 }
 
+div#fondlogin {
+  height: 100%;
+  background: #b36676;
+  background: -moz-linear-gradient(0deg, #b36676 0%, #ffabbd 20%, #ffc4d1 54%);
+  background: -webkit-linear-gradient(0deg, #b36676 0%, #ffabbd 20%, #ffc4d1 54%);
+  background: linear-gradient(0deg, #b36676 0%, #ffabbd 20%, #ffc4d1 54%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b36676",endColorstr="#ffc4d1",GradientType=1);
+}
+
 #logo {
   text-align: center;
   padding: 50px 0px 20px 0px;
@@ -276,6 +285,9 @@ header #title p {
 #map {
   height: 240px;
 }
+#map .leaflet-control-attribution.leaflet-control {
+  display: none;
+}
 
 #core {
   text-align: center;
@@ -283,13 +295,13 @@ header #title p {
   position: relative;
 }
 #core #img-rounded {
-  padding: 25px;
-  background-color: rgba(200, 200, 200, 0.5);
+  padding: 16px;
+  background-color: rgba(178, 214, 169, 0.6);
   border-radius: 50%;
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   position: absolute;
-  top: -80px;
+  top: -5px;
 }
 #core #img-rounded img {
   width: 100%;
@@ -409,6 +421,12 @@ header #title p {
 }
 #blocksmap .innerBlock:nth-child(2) .info h5 {
   margin-top: 0px;
+}
+#blocksmap .innerBlock:nth-child(2) .info input {
+  width: 30px;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #f2f2f2;
 }
 
 body div#signal {

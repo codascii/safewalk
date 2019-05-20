@@ -14,8 +14,8 @@ map.locate({setView: true, maxZoom: 60});
 function onLocationFound(e) {
     var radius = e.accuracy / 2;
 
-    L.marker(e.latlng).addTo(map)
-        .bindPopup("You are within " + radius + " meters from this point").openPopup();
+    L.marker(e.latlng).addTo(map);
+        //.bindPopup("You are within " + radius + " meters from this point").openPopup();
 
     L.circle(e.latlng, radius).addTo(map);
 }
@@ -23,7 +23,8 @@ function onLocationFound(e) {
 map.on('locationfound', onLocationFound);
 
 function onLocationError(e) {
-    alert(e.message);
+    //alert(e.message);
+    alert("Activez la localisation.");
 }
 
 map.on('locationerror', onLocationError);

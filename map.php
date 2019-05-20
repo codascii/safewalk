@@ -30,7 +30,7 @@
             <div class="innerBlock">
                 <div class="info">
                     <h5>Marge de temps</h5>
-                    <span>xxx</span>
+                    <span><input type="number" placeholder="15" name="margedetemps" id="margedetemps"> minutes</span>
                 </div>
                 <div class="info">
                     <h5>Safehelper</h5>

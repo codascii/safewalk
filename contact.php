@@ -28,7 +28,7 @@
                     <img src="img/img-profil.png" alt="Photo de profil">
                 </div>
             </div>
-            <div style="margin-top: 60px;">                
+            <div style="margin-top: 90px;">                
                 <h3 style="margin:0px;">John Doe</h3>
                 <p style="margin-top: 5px;">Lyon</p>
             </div>
