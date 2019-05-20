@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Asap", sans-serif;
+  font-family: "Arial", sans-serif;
   color: #595959;
 }
 
@@ -409,6 +409,61 @@ header #title p {
 }
 #blocksmap .innerBlock:nth-child(2) .info h5 {
   margin-top: 0px;
+}
+
+body div#signal {
+  height: 100%;
+  position: relative;
+}
+body div#signal > div {
+  height: 20%;
+  display: flex;
+  color: white;
+  font-family: "Francois One", sans-serif;
+  font-size: 2.3em;
+  position: relative;
+}
+body div#signal > div > p {
+  margin: auto;
+}
+body div#signal > div > p a {
+  color: #232323;
+}
+body div#signal > div#retard-moins-30-min {
+  background-color: #B36676;
+}
+body div#signal > div#retard-plus-30-min {
+  background-color: #FFC4D1;
+}
+body div#signal > div#agression {
+  background-color: #FFABBD;
+}
+body div#signal > div#urgence-medicale {
+  background-color: #55B363;
+}
+body div#signal > div#autre {
+  background-color: #B2D6A9;
+}
+body div#signal div#retour {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 125463;
+  color: #444444;
+  display: flex;
+  box-shadow: 0px 0px 5px #808080;
+}
+body div#signal div#retour p {
+  margin: auto;
+}
+body div#signal div#retour p i {
+  margin-left: -8px;
+  font-size: 1.2em;
 }
 
 /*# sourceMappingURL=safewalk.css.map */

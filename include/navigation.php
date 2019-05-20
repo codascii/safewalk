@@ -6,12 +6,12 @@
                     <a href="contacts.php">
                         <i class="fas fa-address-book"></i>
                     </a>
-                    <a href="#">
+                    <a href="map.php">
                         <i class="fas fa-map-marker-alt"></i>
                     </a>
                 </div>
                 <div id="signal">
-                    <a href="#">SIGNAL</a>
+                    <a href="signal.php?back= <?= substr($_SERVER['REQUEST_URI'], 1) ?>">SIGNAL</a>
                 </div>
             </div>
             <div id="photo" class="">

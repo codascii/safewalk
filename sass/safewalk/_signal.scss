@@ -1,0 +1,70 @@
+body {
+    
+    
+
+    div#signal {
+        height: 100%;
+        position: relative;        
+    
+        > div {
+            height: 20%;
+            display: flex;
+            color: white;
+            font-family: 'Francois One', sans-serif;
+            font-size: 2.3em;
+            position: relative;
+    
+            > p {
+                margin: auto;
+
+                a {
+                    color: #232323;
+                }
+            }
+    
+            &#retard-moins-30-min {
+                background-color: $primary-color;
+            }
+    
+            &#retard-plus-30-min {
+                background-color: $primary-color-lighter;
+            }
+    
+            &#agression {
+                background-color: $primary-color-light;
+            }
+    
+            &#urgence-medicale {
+                background-color: $secondary-color;
+            }
+    
+            &#autre {
+                background-color: $secondary-color-light;
+            }
+        }
+
+        div#retour {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            border-radius: 50%;
+            background-color: white;
+            z-index: 125463;
+            color: #444444;
+            display: flex;
+            box-shadow: 0px 0px 5px #808080;
+
+            p {
+                margin: auto;
+
+                i {
+                    margin-left: -8px;
+                    font-size: 1.2em;
+                }
+            }
+        }
+    }
+}
