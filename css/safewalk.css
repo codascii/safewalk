@@ -266,6 +266,7 @@ div#navigation div#box div#informations div#horizontal p#hville {
 }
 #core #contacts .contact span {
   font-size: 0.85em;
+  float: left;
 }
 #core #contacts .contact img {
   width: 40px;

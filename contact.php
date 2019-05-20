@@ -30,29 +30,29 @@
                 </div>
             </div>
             <div style="margin-top: 90px;">                
-                <h3 style="margin:0px;">John Doe</h3>
-                <p style="margin-top: 5px;">Lyon</p>
+                <h3 style="margin:0px;"><?= $_GET['nom'] ?></h3>
+                <p style="margin-top: 5px;"><?= $_GET['ville'] ?></p>
             </div>
             <div id="blocks">
-                <div class="block">
+                <div class="block animated zoomIn fast">
                     <i class="fas fa-phone"></i>
                     <span class="label">Mobile</span>
-                    <span class="value">06 06 12 34 56</span>
+                    <span class="value"><?= $_GET['mobile'] ?></span>
                 </div>
-                <div class="block">
+                <div class="block animated zoomIn fast">
                     <i class="fas fa-envelope"></i>
                     <span class="label">Email</span>
-                    <span class="value">john.doe@mail.com</span>
+                    <span class="value"><?= $_GET['email'] ?></span>
                 </div>
-                <div class="block">
+                <div class="block animated zoomIn fast">
                     <i class="fas fa-envelope"></i>
                     <span class="label">Message</span>
-                    <span class="value">06 06 12 34 56</span>
+                    <span class="value"><?= $_GET['mobile'] ?></span>
                 </div>
-                <div class="block">
+                <div class="block animated zoomIn fast">
                     <i class="fas fa-spa"></i>
                     <span class="label">Code safewalk</span>
-                    <span class="value">Raz19!</span>
+                    <span class="value"><?= $_GET['code'] ?></span>
                 </div>
             </div>
         </div>        

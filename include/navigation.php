@@ -1,4 +1,4 @@
-<div id="navigation">
+<div id="navigation" class="animated bounceInUp delay-200ms">
     <div id="box">
         <div id="navbar">
             <div id="navbar-content">

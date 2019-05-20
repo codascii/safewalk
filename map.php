@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
         <link rel="stylesheet" type="text/css" href="css/safewalk.css" />
+        <link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
         integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
         crossorigin=""/>
@@ -16,7 +17,7 @@
         <title>Carte - Safewalk</title>
     </head>
     <body>        
-        <div id="blocksmap">
+        <div id="blocksmap" class="animated bounceInLeft delay-600ms">
             <div class="innerBlock">
                 <ul>
                     <li><input type="text" name="depart" id="depart" placeholder="Départ" /></li>
@@ -38,7 +39,7 @@
                 </div>
             </div>
         </div>
-        <div id="map"></div>
+        <div id="map" class="animated zoomIn"></div>
         <?php include 'include/navigation.php' ?>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script type="text/javascript" src="js/map.js"></script>
