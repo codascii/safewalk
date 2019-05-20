@@ -277,9 +277,13 @@ div#navigation div#box div#informations div#horizontal p#hville {
   color: #595959;
 }
 
+header {
+  margin: 0px;
+}
 header #title p {
+  font-family: "Francois One", sans-serif;
   color: #B36676;
-  font-size: 20px;
+  font-size: 1.6em;
 }
 
 #map {

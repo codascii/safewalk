@@ -43,10 +43,15 @@
     }  
 }
 
-header #title {
-    p {
-        color: $primary-color;
-        font-size: 20px;
+header {
+    margin: 0px;
+
+    #title {
+        p {
+            font-family: 'Francois One', sans-serif;
+            color: $primary-color;
+            font-size: 1.6em;
+        }
     }
 }
 
