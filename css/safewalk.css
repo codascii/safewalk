@@ -260,12 +260,13 @@ div#navigation div#box div#informations div#horizontal p#hville {
   display: flex;
   padding: 10px 20px;
 }
-#core #contacts .contact h4 {
+#core #contacts .contact div h4 {
   margin: 0px;
   margin-bottom: 5px;
 }
-#core #contacts .contact span {
+#core #contacts .contact div span {
   font-size: 0.85em;
+  text-align: left;
 }
 #core #contacts .contact img {
   width: 40px;

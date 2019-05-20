@@ -34,7 +34,34 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Jeanette Leblanc</h4>
+                            <span>Villeurbanne</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="contact.php">
+                    <div class="contact">
+                        <img src="img/img-profil.png" alt="Photo de profil">
+                        <div>
+                            <h4>Catherine Zeta Jones</h4>
+                            <span>Venissieux</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="contact.php">
+                    <div class="contact">
+                        <img src="img/img-profil.png" alt="Photo de profil">
+                        <div>
+                            <h4>Paul Young</h4>
+                            <span>Craponne</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="contact.php">
+                    <div class="contact">
+                        <img src="img/img-profil.png" alt="Photo de profil">
+                        <div>
+                            <h4>Sarah Lee</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -43,7 +70,7 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Julien Morel</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -52,7 +79,7 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Kate Ashton</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -61,7 +88,7 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Kevin Bouvet</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -70,7 +97,7 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Lise Lafleur</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -79,7 +106,7 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
+                            <h4>Stephane Gallot</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
@@ -88,8 +115,8 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
+                            <h4>Amina Salim</h4>
+                            <span>Saint-Priest</span>
                         </div>
                     </div>
                 </a>
@@ -97,34 +124,7 @@
                     <div class="contact">
                         <img src="img/img-profil.png" alt="Photo de profil">
                         <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
-                        </div>
-                    </div>
-                </a>
-                <a href="contact.php">
-                    <div class="contact">
-                        <img src="img/img-profil.png" alt="Photo de profil">
-                        <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
-                        </div>
-                    </div>
-                </a>
-                <a href="contact.php">
-                    <div class="contact">
-                        <img src="img/img-profil.png" alt="Photo de profil">
-                        <div>
-                            <h4>John Doe</h4>
-                            <span>Lyon</span>
-                        </div>
-                    </div>
-                </a>
-                <a href="contact.php">
-                    <div class="contact">
-                        <img src="img/img-profil.png" alt="Photo de profil">
-                        <div>
-                            <h4>John Doe</h4>
+                            <h4>Chanel Martin</h4>
                             <span>Lyon</span>
                         </div>
                     </div>
