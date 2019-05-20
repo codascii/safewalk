@@ -11,7 +11,7 @@
                     </a>
                 </div>
                 <div id="signal">
-                    <a href="signal.php?back= <?= substr($_SERVER['REQUEST_URI'], 1) ?>">SIGNAL</a>
+                    <a href="signal.php?back= <?php if(isset($_SERVER['SCRIPT_URI'])) {echo $_SERVER['SCRIPT_URI'];} else{ echo $_SERVER['REQUEST_URI'];} ?>">SIGNAL</a>
                 </div>
             </div>
             <div id="photo" class="">
@@ -41,3 +41,5 @@
         </div>
     </div>
 </div>
+
+<?php //var_dump($_SERVER); ?>
